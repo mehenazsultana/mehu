@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container{
+text-align: center;
+}
+#skillInput{
+    width: 300px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+    
+}
+button{
+   width: 80px;
+    padding: 10px;
+background-color: rgb(17, 255, 0);
+background-color: blue;
+border: none;
+border-radius: 10px;
+transition: 3s;
+}
+button:hover{
+background-color: chocolate;
+
+
+
+
+}
+.sakillbox{
+    min-height: 100px;
+    width: 380px;
+   
+  margin-top: 30px;
+  text-align: center;
+}
+#sakilllist{
+   list-style: none;
+   line-height: 2;
+
+
+}
+#sakilllist > li{
+    background-color: red;
+    color: brown;
+    margin-top: 10px;
+    padding: 10px;
+    list-style: none;
+}
